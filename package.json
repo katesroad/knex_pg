@@ -1,0 +1,41 @@
+{
+  "name": "data_processing",
+  "version": "1.0.0",
+  "description": "The script to upload data to postgreSQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CuraBox/data_processing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CuraBox/data_processing/issues"
+  },
+  "homepage": "https://github.com/CuraBox/data_processing#readme",
+  "dependencies": {
+    "csvtojson": "^2.0.10",
+    "dotenv": "^8.2.0",
+    "knex": "^0.21.1",
+    "pg": "^8.2.1"
+  },
+  "devDependencies": {
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.7",
+    "prettier": "^2.0.5"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+      "prettier --write"
+    ]
+  }
+}
