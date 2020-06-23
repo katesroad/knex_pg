@@ -7,6 +7,6 @@ The script to upload data to postgreSQL
 
   A javascript libraray used to insert data into PostgreSQL.
 
-- csvtojson
+## Some common used solutions
 
-  A javascript libraray used to convert *csv* file into *json* format.
+- Insert data with relations: https://github.com/knex/knex/issues/251
