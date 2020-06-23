@@ -10,3 +10,4 @@ The script to upload data to postgreSQL
 ## Some common used solutions
 
 - Insert data with relations: https://github.com/knex/knex/issues/251
+- Create table: https://stackoverflow.com/questions/35089571/knex-js-create-table-and-insert-data
