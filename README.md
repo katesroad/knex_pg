@@ -11,7 +11,9 @@ The script to upload data to postgreSQL
 
 - Insert data with relations: https://github.com/knex/knex/issues/251
 - Create table: https://stackoverflow.com/questions/35089571/knex-js-create-table-and-insert-data
-- Query jsonb in PosgreSQL: https://github.com/knex/knex/issues/569
+- Query jsonb in PosgreSQL:
+  - https://github.com/knex/knex/issues/569
+  - https://stackoverflow.com/questions/44428665/knexjs-pgsql-json-query
 
 
 ## quick checksheet
