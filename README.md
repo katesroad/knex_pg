@@ -16,6 +16,7 @@ The script to upload data to postgreSQL
   - https://stackoverflow.com/questions/44428665/knexjs-pgsql-json-query
 - view: 
    Knex supports querying views just like querying tables
+- Index in PostgreSQL: https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/
 
 
 ## quick checksheet
