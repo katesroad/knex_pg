@@ -14,6 +14,8 @@ The script to upload data to postgreSQL
 - Query jsonb in PosgreSQL:
   - https://github.com/knex/knex/issues/569
   - https://stackoverflow.com/questions/44428665/knexjs-pgsql-json-query
+- view: 
+   Knex supports querying views just like querying tables
 
 
 ## quick checksheet
