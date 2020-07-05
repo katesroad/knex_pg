@@ -25,4 +25,7 @@ The script to upload data to postgreSQL
 ## Concepts in PostgreSQL
 
 - Index in PostgreSQL: https://www.postgresqltutorial.com/postgresql-indexes/postgresql-index-types/
+- Why you need to use transaction: https://www.postgresqltutorial.com/postgresql-transaction/
+
+The query result for two sessions might be different. 
 
