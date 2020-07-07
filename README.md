@@ -15,9 +15,12 @@ The script to upload data to postgreSQL
   - https://github.com/knex/knex/issues/569
   - https://stackoverflow.com/questions/44428665/knexjs-pgsql-json-query
 - Transaction using Knex
+The query result for two sessions may vary for two sessions without using transaction.
   http://knexjs.org/#Transactions
  - view: 
    Knex supports querying views just like querying tables
+ - How to improve the performance of count rows:
+ https://stackoverflow.com/questions/44299307/how-to-improve-the-performance-of-counting-all-rows
    
 
 ## quick checksheet
@@ -31,5 +34,6 @@ The script to upload data to postgreSQL
    - store data pysically for performance enhancement
    - you need to refresh materialized view: https://stackoverflow.com/questions/23906977/refresh-a-materialized-view-automatically-using-a-rule-or-notify
 
-The query result for two sessions might be different. 
+
+
 
