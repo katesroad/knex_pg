@@ -16,6 +16,7 @@ The script to upload data to postgreSQL
 - Query jsonb in PosgreSQL:
   - https://github.com/knex/knex/issues/569
   - https://stackoverflow.com/questions/44428665/knexjs-pgsql-json-query
+  - https://dba.stackexchange.com/questions/127689/how-to-get-particular-object-from-jsonb-array-in-postgresql
   
 - Transaction using Knex
 
