@@ -7,6 +7,8 @@ The script to upload data to postgreSQL
 
   A javascript libraray used to insert data into PostgreSQL.
 
+## documents
+http://www.silota.com/docs/recipes/sql-postgres-json-data-types.html
 ## Some common used solutions in Knex
 
 - Insert data with relations: https://github.com/knex/knex/issues/251
