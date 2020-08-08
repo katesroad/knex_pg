@@ -1,6 +1,6 @@
-# Data process
+# Operating PostgreSQL with Knex
 
-The script to upload data to postgreSQL
+Notes of PostgreSQL and Knex: https://trello.com/b/XZiTfgYe/postgresql
 
 ## Packages used
 - knex
